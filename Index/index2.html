@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>index 2</title>
+	<meta charset="utf-8">
+</head>
+<body>
+
+	<!-- Menu Website -->
+	<div>
+		<a href="../index.html">&nbsp;&nbsp;&nbsp;&nbsp;Home</a>
+		<a href="index2.html">Laman</a>
+	</div>
+
+	<!-- Bagian Awal --> 
+	<div>
+		<h1>Laman 2</h1>
+		<p>Tutorial Membuat Laman Lebih dari 1</p>
+	</div>
+
+	<!-- Membuat Form -->
+	<form>
+		<fieldset>
+			<legend>Nama & Alasan</legend>
+		<!-- text & textarea -->
+			<label for="Nama_User">Nama</label>
+			<input type="text" name="Nama User" placeholder="Nama Anda" id="Nama_User">
+			<br>
+			<label for="Alasan">Alasan User</label>
+			<textarea cols="7" rows="6" placeholder="Cerita Anda/Alasan" id="Alasan"></textarea>
+		</fieldset>
+		<br>
+
+		<!-- Checkbox & radio -->
+		<fieldset>
+			<legend>Choose</legend>
+			<label>Ukn</label> <br>
+			<input type="checkbox" name="Kawaiii" value="0"> Pipit <br>
+			<input type="checkbox" name="Kawaiii" value="1" checked=""> Puput <br>
+			<input type="checkbox" name="Kawaiii" value="2"> Ukn
+			<br>
+			<label>Gender</label> <br>
+			<input type="radio" name="Gender" value="1" checked="">Laki-laki <br>
+			<input type="radio" name="Gender" value="2">Perempuan
+		</fieldset>
+		<br>
+
+		<!-- Select & Option -->
+		<fieldset>
+			<legend>Pelajaran yang diminati</legend>
+			<label>Pelajaran</label> <br>
+				<select>
+					<optgroup label="FrontEnd">
+						<option value="Html">Html</option>
+						<option value="CSS">CSS</option>
+						<option value="js">Javascript</option>
+					</optgroup>
+
+					<optgroup label="Backend">
+						<option value="php">php</option>
+						<option value="db">database</option>
+					</optgroup>
+				</select> <br>
+		</fieldset>
+		<input type="submit" value="Kirim Data">
+	</form>
+
+
+	<br><br>
+	<!-- Table -->
+	<table border="1">
+		<caption>Raport Kelas</caption>
+		<tr>
+			<th>Nama</th>
+			<th>Nilai</th>
+		</tr>
+		<tr>
+			<td>Ukn</td>
+			<td>99</td>
+		</tr>
+		<tr>
+			<td>Gg</td>
+			<td>87</td>
+		</tr>
+	</table>
+
+	<!-- List -->
+	<ul>
+		<li>Pipit</li>
+		<li>Puput</li>
+	</ul>
+	<ol>
+		<li>Puput</li>
+		<li>Pipit</li>
+	</ol>
+	<dl>
+		<dt>Pipit</dt>
+		<dd>Saudaranya puput</dd>
+	</dl>
+
+	<p>&copy;RizukiShu</p>
+
+
+
+</body>
+</html>
